@@ -10,15 +10,15 @@
   <title>A4C</title>
 </head>
 
-<body>
+<body class="example">
 
   <nav class=" bg-black sm:px-1 md:px-16  py-3 sticky top-0 z-50">
     <ul class="flex flex-row justify-between ">
       <img class=" lg:h-14 md:h-12 sm:h-8 h-8 pl-3 " src="src/LOGO.png" alt="">
       <li class="flex items-center md:space-x-20 sm:space-x-12  space-x-7 mr-8  opacity-75">
         <a href="#Contact" class=" sm:block hidden navlink text-[#00f7ff] font-semibold sm:text-lg text-xs ">Contact</a>
-        <a href="" class="sm:block hidden navlink text-[#00f7ff] font-semibold sm:text-lg text-xs ">Services</a>
-        <a href="" class="sm:block hidden navlink text-[#00f7ff] font-semibold sm:text-lg text-xs ">Steps</a>
+        <a href="#Services" class="sm:block hidden navlink text-[#00f7ff] font-semibold sm:text-lg text-xs ">Services</a>
+        <a href="#Steps" class="sm:block hidden navlink text-[#00f7ff] font-semibold sm:text-lg text-xs ">Steps</a>
         <button id="menubtn" href="" class="sm:hidden block navlink text-[#00f7ff] font-semibold sm:text-lg text-xs " onclick="myFunction()">
             <div class="bar1"></div>
             <div class="bar2"></div>
@@ -29,9 +29,9 @@
 
     <div id="leftmenu" class="w-1/2 bg-black absolute left-0 h-screen lefthide" >
       <ul class="py-10">
-        <li class=" text-white py-4 pl-5"> <a href="#Contact"> Contact </a></li>
-        <li class=" text-white py-4 pl-5">Services</li>
-        <li class=" text-white py-4 pl-5">Steps</li>
+        <li class=" text-lg text-white py-4 pl-5"> <a href="#Contact"> Contact </a></li>
+        <li class="text-lg text-white py-4 pl-5"><a href="#Services">Services</a></li>
+        <li class="text-lg text-white py-4 pl-5"><a href="#Steps">Steps</a></li>
       </ul>
 
     </div>
@@ -41,16 +41,18 @@
 
     <img class="opacity-25 lg:h-2/3   absolute bottom-0 sm:-left-42 -left-72" src="src/cloud.png" alt="cloud">
 
-    <div class="sm:absolute  sm:right-[10%] sm:bottom-[20%]   static ">
+    <div class="sm:absolute  sm:right-[10%] sm:bottom-[37%]   static ">
       <h1 class=" sm:text-8xl md:text-9xl text-7xl  "><span> Anything </span></h1>
       <h1 class=" sm:text-8xl md:text-9xl text-7xl text-blue-100  "> 4 Cloud </h1>
       <p class="text-2xl text-blue-100 sm:block hidden  ">How technology affects companies and employees</p>
       <p class="text-2xl text-blue-100 sm:hidden  ">How technology affects </p>
       <p class="text-2xl text-blue-100 sm:hidden  ">companies and employees</p>
       <div class="text-center sm:text-left">
+        <a href="#Contact">
       <button  class="opacity-80 border-[1px] text-white font-bold py-2 my-3 px-10 rounded-full  ">
         Let’s talk 
       </button>
+    </a>
     </div>
     </div>
 
@@ -85,9 +87,9 @@
     </div>
   </section>
 
-  <section id="services" class="md:my-48 md:mx-8  my-36 mx-2" >
+  <section id="Services" class=" md:mx-8   mx-2" >
     <h1 class="text-center pt-28 font-semibold "> <span class="md:text-7xl text-5xl text-center"> SERVICES </span> </h1>
-    <div class="w-11/12 px-5 py-24 mx-auto ">
+    <div class="w-11/12  sm:py-24 mx-auto ">
       <div class="flex flex-wrap justify-center">
         <div class="p-4 sm:w-1/2 lg:w-1/3 md:px-8">
           <div class="h-full  border-gray-100  opacity-80  rounded-lg overflow-hidden ">
@@ -166,9 +168,9 @@
     </div>
   </section>
   
-<section class="h-screen relative ">
+<section id="Steps" class="h-screen pt-20 relative ">
 
-  <div class="mt-12 sm:mt-0" >
+  <div class="" >
 
     <div class="lg:w-48 md:w-40 mx-auto flex md:flex-col flex-row w-full md:p-0 p-6">
 
@@ -178,7 +180,7 @@
         </div>
          </div>
          <div class="flex justify-center items-center w-full">
-                <p class="md:text-center sm:text-[10px] text-[7px] text-white md:pt-4">
+                <p class="md:text-center sm:text-[10px] text-[7px] text-white md:pt-4 sm:px-0 px-2">
                   The definition of the problem is the most vital point. We analyse your current technology and requirements and we come up with solutions. But more importantly, we will showcase the expected outcome of the proposed solutions. Hence, you can be more confident that your expectations will be met.
 
                 </p>
@@ -193,7 +195,7 @@
         </div>
          </div>
          <div class="flex justify-center items-center w-full">
-                <p class="md:text-center sm:text-[10px] text-[7px]  text-white md:pt-4">
+                <p class="md:text-center sm:text-[10px] text-[7px]  text-white md:pt-4 sm:px-0 px-2">
                   We bring to life the ideas we have agreed on. Breaking our development down into quick wins, advanced strategies, and the long-term view. You’ll also learn about the way we’d like to work alongside you – seeing who your team would be and how they’ll use our powerful technology to grow your business
                 </p>
         </div>
@@ -207,21 +209,18 @@
         </div>
          </div>
          <div class="flex justify-center items-center w-full">
-                <p class="md:text-center sm:text-[10px] text-[7px]  text-white md:pt-4">
+                <p class="md:text-center sm:text-[10px] text-[7px]  text-white md:pt-4 sm:px-0 px-2">
                   After the initial development and delivery of the project we’ll stay in regular contact. As we know this is the only way to deliver the results you expect. We will be in touch regularly. But, we prefer a stronger relationship – working alongside you to meet your goals, rather than being a distant agency where you’re left guessing what’s happening behind the scenes.
                 </p>
         </div>
 
-
-        
-
         
     </div>
 
-    <div class=" absolute sm:bottom-0 w-full  mx-auto flex item-center justify-center">
+    <div class=" sm:absolute sm:bottom-0 w-full  mx-auto flex item-center justify-center">
         
 <button class="opacity-80 bg-gray-500 hover:bg-gray-300 hover:text-black text-white font-bold py-4 px-20 rounded-full mx-auto md:mb-48 my-20">
-            CTA
+            Let’s Talk
         </button>
           
     </div>
@@ -233,7 +232,7 @@
 </section>
   
 
-<section class="relative h-screen  bg-[url('src/Desk.jpeg')] bg-cover flex item-center justify-center" >
+<section class="relative h-screen  bg-[url('src/lblap2.jpeg')] bg-cover flex item-center justify-center" >
               <div class="w-full flex flex-col item-center justify-center">
 
                   <div class="sm:absolute top-[10%] left-[10%] text-white ">
@@ -241,8 +240,8 @@
                   <h1 class="sm:text-7xl text-center text-5xl sm:text-slate-400  text-stone-400">your Business </h1>
                   </div>
                   <div class="sm:absolute sm:bottom-[20%] sm:right-[10%] text-white text-center ">
-                  <h1 class=" sm:text-7xl text-center sm:py-8 text-5xl py-10 sm:text-white text-black ">Contact US</h1>
-                  <a class="sm:text-xl text-center rounded-full px-12 py-4 bg-black border-2 border-white-600/[.10] text-xl">NOW</a>
+                  <h1 class=" sm:text-7xl text-center sm:py-8 text-5xl py-10 sm:text-white text-stone-400 ">Contact US</h1>
+                  <a href="#Contact" class="sm:text-xl text-center rounded-full px-12 py-4 bg-black border-2 border-white-600/[.10] text-xl">NOW</a>
                   </div>
               </div>
 
@@ -250,7 +249,7 @@
   </section>
 
 <section>
-  <div class="w-full flex flex-row justify-between px-[15%] py-[5%] flex-wrap">
+  <div class="w-full flex flex-row justify-between px-[12%] py-[3%] flex-wrap text-center mx-">
  <img src="src/AZ.webp" class="h-[100px] my-3 rounded-full" alt="">
  <img src="src/AZ.webp" class="h-[100px] my-3 rounded-full" alt="">
  <img src="src/AZ.webp" class="h-[100px] my-3 rounded-full" alt="">
@@ -259,7 +258,7 @@
   </div>
 </section>
 
-  <section id="Contact" class="  relative flex flex-row md:mt-48 md:mx-8  my-36 mx-2">
+<section id="Contact" class="  relative flex flex-row  md:mx-8  sm:py-28 py-20 mx-2">
 
     <div class="md:w-1/2 w-full flex  items-center justify-center ">
 
@@ -301,9 +300,6 @@
             </div>
 
         </form>
-
-
-
 
     </div>
 
